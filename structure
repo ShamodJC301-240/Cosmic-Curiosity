@@ -1,0 +1,56 @@
+skyline-curious/
+│
+├── index.html                # Home: intro, featured image, space fact of the day
+├── gallery.html              # NASA images + your future photos
+├── facts.html                # Space facts library
+├── timelines.html            # Story of the universe timeline
+├── tech.html                 # Camera demo (high FPS vs low FPS, your idea)
+├── learn.html                # Beginner guides: how stars work, planets, nebulae, etc.
+├── about.html                # Your story, mission of the site
+│
+├── /css
+│   ├── main.css              # Core theme
+│   ├── layout.css            # Grid, spacing, responsive design
+│   ├── components.css        # Cards, buttons, banners
+│   ├── colors.css            # Light bright theme (sky blue, sunset, etc.)
+│   └── animations.css        # Star twinkle, floating icons, smooth fades
+│
+├── /js
+│   ├── main.js               # Navbar, theme toggles, shared functions
+│   ├── api-nasa.js           # NASA APOD + NASA image/EPIC API fetch
+│   ├── gallery.js            # Image grid + lightbox
+│   ├── facts.js              # Pulls random facts, filters facts
+│   ├── timelines.js          # Universe timeline animations
+│   ├── camera-demo.js        # High-FPS/low-FPS camera characters you described
+│   ├── search.js             # Search bar for facts, stars, objects
+│   └── utils.js              # Reusable helpers
+│
+├── /data
+│   ├── facts.json            # Cool astronomy facts
+│   ├── objects.json          # Basic info on stars, planets, nebulae
+│   ├── timeline.json         # Big bang → present timeline
+│   └── glossary.json         # Simple definitions (nebula, redshift, etc.)
+│
+├── /assets
+│   ├── /images
+│   │   ├── logo/             # Your site logo, site icon
+│   │   ├── ui/               # Background shapes, sky gradients
+│   │   ├── placeholders/     # Stock space images until you get your own
+│   │   └── user-photos/      # Your future astrophotography shots
+│   │
+│   ├── /icons                # SVG icons (stars, planets, telescope, etc.)
+│   ├── /svg                  # Custom illustrations (camera characters, timelines)
+│   └── /fonts                # Clean sans serif + fun display font
+│
+├── /components               # Small HTML pieces for reuse
+│   ├── navbar.html
+│   ├── footer.html
+│   ├── fact-card.html
+│   ├── object-card.html
+│   ├── timeline-item.html
+│   └── image-card.html
+│
+└── /docs                     # Planning, notes, extra info
+    ├── design.md
+    ├── api-notes.md
+    └── feature-roadmap.md
